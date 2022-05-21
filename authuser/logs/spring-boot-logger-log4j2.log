@@ -1,0 +1,436 @@
+2021-10-11 22:15:51,987 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2021-10-11 22:15:52,002 DEBUG o.h.v.i.x.c.ValidationXmlParser [background-preinit] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-10-11 22:15:52,004 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [background-preinit] Trying to load META-INF/validation.xml via TCCL
+2021-10-11 22:15:52,005 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [background-preinit] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-10-11 22:15:52,007 DEBUG o.h.v.i.x.c.ValidationXmlParser [background-preinit] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-10-11 22:15:52,015 DEBUG o.h.v.i.e.r.TraversableResolvers [background-preinit] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-10-11 22:15:52,016 DEBUG o.h.v.i.e.r.TraversableResolvers [background-preinit] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-10-11 22:15:52,018 INFO o.s.b.StartupInfoLogger [main] Starting AuthuserApplication using Java 11.0.12 on DESKTOP-7F5CO3Q with PID 6272 (C:\EAD\authuser\target\classes started by Michelli Brito in C:\EAD\authuser)
+2021-10-11 22:15:52,023 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-10-11 22:15:52,024 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-11 22:15:52,043 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2021-10-11 22:15:52,146 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-10-11 22:15:52,151 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-10-11 22:15:52,151 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-10-11 22:15:52,151 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-10-11 22:15:52,152 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-10-11 22:15:52,152 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [background-preinit] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-10-11 22:15:52,655 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-11 22:15:52,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2021-10-11 22:15:53,218 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8087 (http)
+2021-10-11 22:15:53,234 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8087"]
+2021-10-11 22:15:53,234 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-11 22:15:53,234 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-11 22:15:53,343 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-11 22:15:53,343 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1272 ms
+2021-10-11 22:15:53,437 DEBUG o.h.j.i.u.LogHelper [main] PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/EAD/authuser/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.ead.authuser.models.UserModel]
+	Mapping files names []
+	Properties []
+2021-10-11 22:15:53,452 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-10-11 22:15:53,452 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-10-11 22:15:53,452 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-10-11 22:15:53,484 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-11 22:15:53,484 DEBUG o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2021-10-11 22:15:53,562 DEBUG o.h.s.s.ServiceBinding [main] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-10-11 22:15:53,562 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-10-11 22:15:53,562 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-10-11 22:15:53,577 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@61a87366
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@61a87366
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@61a87366
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@53feeac9
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@3915e7c3
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@388be5fd
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@48cdb156
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@48cdb156
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@48cdb156
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@3a109ff7
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@3a109ff7
+2021-10-11 22:15:53,593 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3a109ff7
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@5a47730c
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@5a47730c
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5a47730c
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@693f2213
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@693f2213
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@693f2213
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@33bdd01
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@33bdd01
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@33bdd01
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@4e48462d
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@4e48462d
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4e48462d
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@6c5ca0b6
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@6c5ca0b6
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6c5ca0b6
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@45287377
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@45287377
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@410fc508
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@410fc508
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@5c234920
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@5c234920
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2eb1c615
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7ae590f6
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@a056b26
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@a056b26
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@3f6c2763
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3f6c2763
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@424f02b8
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@424f02b8
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1216eb3f
+2021-10-11 22:15:53,609 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1216eb3f
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4bcdd11
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4bcdd11
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2dd0a0d0
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2dd0a0d0
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@589fb74d
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@589fb74d
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@29170a47
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@29170a47
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7f6b7426
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7f6b7426
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@7282af25
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@7282af25
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@b8a144e
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b8a144e
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@3751acd7
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3751acd7
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3751acd7
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@591f6f83
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@7b3cbe6e
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7b3cbe6e
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7b3cbe6e
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@72b2c5ed
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@68c34db2
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@113dcaf8
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@113dcaf8
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@4af7dd6a
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4af7dd6a
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5618fc1f
+2021-10-11 22:15:53,624 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5618fc1f
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@34d9df9f
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@34d9df9f
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7b91d9f
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7b91d9f
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@42c54bad
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@2a136383
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@2a136383
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@2a136383
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@25567581
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@25567581
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@25567581
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@71bb8b34
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@48ccbb32
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@100bba26
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@100bba26
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@100bba26
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@56c0a61e
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@56c0a61e
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@56c0a61e
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@5f6494c0
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@3a4e524
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@10131289
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@10131289
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@19eea77c
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@2cc75b25
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2cc75b25
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@3a38e4dc
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3a38e4dc
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7e0f9528
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4628a02b
+2021-10-11 22:15:53,640 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@7e94e331
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@3cf55e0c
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3cf55e0c
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1f949ab9
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5a7b6b75
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3719360c
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3afca2c
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3855d9b2
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@39f42d0e
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@47a3d56a
+2021-10-11 22:15:53,655 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3a209918
+2021-10-11 22:15:53,655 DEBUG o.h.b.i.BootstrapContextImpl [main] Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e68be2] into BootstrapContext; was [null]
+2021-10-11 22:15:53,655 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e68be2) [was null]
+2021-10-11 22:15:53,655 DEBUG o.h.b.i.BootstrapContextImpl [main] Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@2424cb9d] into BootstrapContext; was [null]
+2021-10-11 22:15:53,655 DEBUG o.h.b.i.BootstrapContextImpl [main] Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@7f51f588] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6fb22ae3]
+2021-10-11 22:15:53,671 DEBUG o.h.b.i.BootstrapContextImpl [main] Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e68be2]
+2021-10-11 22:15:53,671 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e68be2]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-10-11 22:15:53,671 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-10-11 22:15:53,687 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-10-11 22:15:53,687 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-11 22:15:53,893 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-11 22:15:53,900 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Database ->
+       name : PostgreSQL
+    version : 13.4
+      major : 13
+      minor : 4
+2021-10-11 22:15:53,901 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.23
+      major : 42
+      minor : 2
+2021-10-11 22:15:53,901 DEBUG o.j.l.DelegatingBasicLogger [main] JDBC version : 4.2
+2021-10-11 22:15:53,919 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-10-11 22:15:53,931 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder [main] JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2021-10-11 22:15:54,339 DEBUG o.h.b.m.r.Namespace [main] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-10-11 22:15:54,342 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7c421952
+2021-10-11 22:15:54,343 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@7c421952
+2021-10-11 22:15:54,343 DEBUG o.h.t.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7b91d9f
+2021-10-11 22:15:54,346 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1fd37440] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@79308a2]
+2021-10-11 22:15:54,379 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: com.ead.authuser.models.UserModel
+2021-10-11 22:15:54,406 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-10-11 22:15:54,413 DEBUG o.h.c.a.EntityBinder [main] Import with entity name UserModel
+2021-10-11 22:15:54,418 DEBUG o.h.c.a.EntityBinder [main] Bind entity com.ead.authuser.models.UserModel on table tb_users
+2021-10-11 22:15:54,449 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,452 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.ead.authuser.models.UserModel] is safe
+2021-10-11 22:15:54,453 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.ead.authuser.models.UserModel
+2021-10-11 22:15:54,454 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userId with lazy=false
+2021-10-11 22:15:54,456 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:userId]
+2021-10-11 22:15:54,460 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userId
+2021-10-11 22:15:54,464 DEBUG o.h.c.a.PropertyBinder [main] Building property userId
+2021-10-11 22:15:54,470 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), userId, org.hibernate.id.UUIDGenerator, , ...)
+2021-10-11 22:15:54,472 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=cpf, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,472 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property cpf with lazy=false
+2021-10-11 22:15:54,472 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:cpf]
+2021-10-11 22:15:54,473 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for cpf
+2021-10-11 22:15:54,473 DEBUG o.h.c.a.PropertyBinder [main] Building property cpf
+2021-10-11 22:15:54,475 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=creation_date, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,475 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property creationDate with lazy=false
+2021-10-11 22:15:54,475 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:creationDate]
+2021-10-11 22:15:54,476 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for creationDate
+2021-10-11 22:15:54,476 DEBUG o.h.c.a.PropertyBinder [main] Building property creationDate
+2021-10-11 22:15:54,476 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=email, insertable=true, updatable=true, unique=true}
+2021-10-11 22:15:54,476 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property email with lazy=false
+2021-10-11 22:15:54,477 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:email]
+2021-10-11 22:15:54,477 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for email
+2021-10-11 22:15:54,477 DEBUG o.h.c.a.PropertyBinder [main] Building property email
+2021-10-11 22:15:54,478 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=full_name, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,478 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property fullName with lazy=false
+2021-10-11 22:15:54,478 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:fullName]
+2021-10-11 22:15:54,478 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for fullName
+2021-10-11 22:15:54,479 DEBUG o.h.c.a.PropertyBinder [main] Building property fullName
+2021-10-11 22:15:54,479 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=image_url, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,479 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property imageUrl with lazy=false
+2021-10-11 22:15:54,479 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:imageUrl]
+2021-10-11 22:15:54,480 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for imageUrl
+2021-10-11 22:15:54,480 DEBUG o.h.c.a.PropertyBinder [main] Building property imageUrl
+2021-10-11 22:15:54,480 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=last_update_date, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,481 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property lastUpdateDate with lazy=false
+2021-10-11 22:15:54,481 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:lastUpdateDate]
+2021-10-11 22:15:54,481 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for lastUpdateDate
+2021-10-11 22:15:54,481 DEBUG o.h.c.a.PropertyBinder [main] Building property lastUpdateDate
+2021-10-11 22:15:54,481 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,482 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property password with lazy=false
+2021-10-11 22:15:54,482 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:password]
+2021-10-11 22:15:54,482 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for password
+2021-10-11 22:15:54,482 DEBUG o.h.c.a.PropertyBinder [main] Building property password
+2021-10-11 22:15:54,483 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=phone_number, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,483 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property phoneNumber with lazy=false
+2021-10-11 22:15:54,483 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:phoneNumber]
+2021-10-11 22:15:54,483 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for phoneNumber
+2021-10-11 22:15:54,484 DEBUG o.h.c.a.PropertyBinder [main] Building property phoneNumber
+2021-10-11 22:15:54,484 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=user_status, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,484 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userStatus with lazy=false
+2021-10-11 22:15:54,484 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:userStatus]
+2021-10-11 22:15:54,487 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userStatus
+2021-10-11 22:15:54,488 DEBUG o.h.c.a.PropertyBinder [main] Building property userStatus
+2021-10-11 22:15:54,488 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=user_type, insertable=true, updatable=true, unique=false}
+2021-10-11 22:15:54,488 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userType with lazy=false
+2021-10-11 22:15:54,489 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:userType]
+2021-10-11 22:15:54,489 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userType
+2021-10-11 22:15:54,489 DEBUG o.h.c.a.PropertyBinder [main] Building property userType
+2021-10-11 22:15:54,490 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_users), mappingColumn=username, insertable=true, updatable=true, unique=true}
+2021-10-11 22:15:54,490 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property username with lazy=false
+2021-10-11 22:15:54,490 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.ead.authuser.models.UserModel:username]
+2021-10-11 22:15:54,490 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for username
+2021-10-11 22:15:54,490 DEBUG o.h.c.a.PropertyBinder [main] Building property username
+2021-10-11 22:15:54,494 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userId
+2021-10-11 22:15:54,495 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for cpf
+2021-10-11 22:15:54,495 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for creationDate
+2021-10-11 22:15:54,495 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for email
+2021-10-11 22:15:54,495 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for fullName
+2021-10-11 22:15:54,495 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for imageUrl
+2021-10-11 22:15:54,496 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for lastUpdateDate
+2021-10-11 22:15:54,496 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for password
+2021-10-11 22:15:54,496 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for phoneNumber
+2021-10-11 22:15:54,496 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userStatus
+2021-10-11 22:15:54,497 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userType
+2021-10-11 22:15:54,497 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for username
+2021-10-11 22:15:54,499 DEBUG o.h.m.PrimaryKey [main] Forcing column [user_id] to be non-null as it is part of the primary key for table [tb_users]
+2021-10-11 22:15:54,530 DEBUG o.h.i.SessionFactoryImpl [main] Building session factory
+2021-10-11 22:15:54,532 DEBUG o.h.c.Settings [main] SessionFactory name : null
+2021-10-11 22:15:54,532 DEBUG o.h.c.Settings [main] Automatic flush during beforeCompletion(): enabled
+2021-10-11 22:15:54,532 DEBUG o.h.c.Settings [main] Automatic session close at end of transaction: disabled
+2021-10-11 22:15:54,532 DEBUG o.h.c.Settings [main] Statistics: disabled
+2021-10-11 22:15:54,532 DEBUG o.h.c.Settings [main] Deleted entity synthetic identifier rollback: disabled
+2021-10-11 22:15:54,533 DEBUG o.h.c.Settings [main] Default entity-mode: pojo
+2021-10-11 22:15:54,533 DEBUG o.h.c.Settings [main] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-10-11 22:15:54,533 DEBUG o.h.c.Settings [main] Allow initialization of lazy state outside session : disabled
+2021-10-11 22:15:54,534 DEBUG o.h.c.Settings [main] Using BatchFetchStyle : LEGACY
+2021-10-11 22:15:54,534 DEBUG o.h.c.Settings [main] Default batch fetch size: -1
+2021-10-11 22:15:54,534 DEBUG o.h.c.Settings [main] Maximum outer join fetch depth: null
+2021-10-11 22:15:54,534 DEBUG o.h.c.Settings [main] Default null ordering: NONE
+2021-10-11 22:15:54,535 DEBUG o.h.c.Settings [main] Order SQL updates by primary key: disabled
+2021-10-11 22:15:54,535 DEBUG o.h.c.Settings [main] Order SQL inserts for batching: disabled
+2021-10-11 22:15:54,535 DEBUG o.h.c.Settings [main] multi-tenancy strategy : NONE
+2021-10-11 22:15:54,535 DEBUG o.h.c.Settings [main] JTA Track by Thread: enabled
+2021-10-11 22:15:54,535 DEBUG o.h.c.Settings [main] Query language substitutions: {}
+2021-10-11 22:15:54,536 DEBUG o.h.c.Settings [main] Named query checking : enabled
+2021-10-11 22:15:54,536 DEBUG o.h.c.Settings [main] Second-level cache: disabled
+2021-10-11 22:15:54,536 DEBUG o.h.c.Settings [main] Second-level query cache: disabled
+2021-10-11 22:15:54,536 DEBUG o.h.c.Settings [main] Second-level query cache factory: null
+2021-10-11 22:15:54,537 DEBUG o.h.c.Settings [main] Second-level cache region prefix: null
+2021-10-11 22:15:54,537 DEBUG o.h.c.Settings [main] Optimize second-level cache for minimal puts: disabled
+2021-10-11 22:15:54,537 DEBUG o.h.c.Settings [main] Structured second-level cache entries: disabled
+2021-10-11 22:15:54,537 DEBUG o.h.c.Settings [main] Second-level cache direct-reference entries: disabled
+2021-10-11 22:15:54,538 DEBUG o.h.c.Settings [main] Automatic eviction of collection cache: disabled
+2021-10-11 22:15:54,538 DEBUG o.h.c.Settings [main] JDBC batch size: 15
+2021-10-11 22:15:54,538 DEBUG o.h.c.Settings [main] JDBC batch updates for versioned data: enabled
+2021-10-11 22:15:54,538 DEBUG o.h.c.Settings [main] Scrollable result sets: enabled
+2021-10-11 22:15:54,538 DEBUG o.h.c.Settings [main] Wrap result sets: disabled
+2021-10-11 22:15:54,539 DEBUG o.h.c.Settings [main] JDBC3 getGeneratedKeys(): enabled
+2021-10-11 22:15:54,539 DEBUG o.h.c.Settings [main] JDBC result set fetch size: null
+2021-10-11 22:15:54,539 DEBUG o.h.c.Settings [main] Connection release mode: ON_CLOSE
+2021-10-11 22:15:54,539 DEBUG o.h.c.Settings [main] Generate SQL with comments: disabled
+2021-10-11 22:15:54,539 DEBUG o.h.c.Settings [main] JPA compliance - query : disabled
+2021-10-11 22:15:54,540 DEBUG o.h.c.Settings [main] JPA compliance - closed-handling : disabled
+2021-10-11 22:15:54,540 DEBUG o.h.c.Settings [main] JPA compliance - lists : disabled
+2021-10-11 22:15:54,540 DEBUG o.h.c.Settings [main] JPA compliance - transactions : disabled
+2021-10-11 22:15:54,639 DEBUG o.h.i.SessionFactoryImpl [main] Session factory constructed with filter configurations : {}
+2021-10-11 22:15:54,639 DEBUG o.h.i.SessionFactoryImpl [main] Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@35becbd4, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\EAD\authuser\target\classes;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.4\spring-boot-starter-web-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.4\spring-boot-starter-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.4\spring-boot-autoconfigure-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Michelli Brito\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.4\spring-boot-starter-json-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.4\jackson-datatype-jdk8-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.4\jackson-datatype-jsr310-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.4\jackson-module-parameter-names-2.12.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.4\spring-boot-starter-tomcat-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.52\tomcat-embed-core-9.0.52.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.52\tomcat-embed-websocket-9.0.52.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-web\5.3.9\spring-web-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-beans\5.3.9\spring-beans-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-webmvc\5.3.9\spring-webmvc-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-aop\5.3.9\spring-aop-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-context\5.3.9\spring-context-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-expression\5.3.9\spring-expression-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-log4j2\2.5.4\spring-boot-starter-log4j2-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\Michelli Brito\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\logging\log4j\log4j-jul\2.14.1\log4j-jul-2.14.1.jar;C:\Users\Michelli Brito\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.5.4\spring-boot-starter-validation-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.52\tomcat-embed-el-9.0.52.jar;C:\Users\Michelli Brito\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.0.Final\hibernate-validator-6.2.0.Final.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\Michelli Brito\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\Michelli Brito\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-hateoas\2.5.4\spring-boot-starter-hateoas-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\hateoas\spring-hateoas\1.3.3\spring-hateoas-1.3.3.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\plugin\spring-plugin-core\2.0.0.RELEASE\spring-plugin-core-2.0.0.RELEASE.jar;C:\Users\Michelli Brito\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Michelli Brito\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Michelli Brito\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.4\spring-boot-starter-data-jpa-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.4\spring-boot-starter-aop-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.4\spring-boot-starter-jdbc-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-jdbc\5.3.9\spring-jdbc-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\Michelli Brito\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\Michelli Brito\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\Michelli Brito\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\Michelli Brito\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Michelli Brito\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\Michelli Brito\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Michelli Brito\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Michelli Brito\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.5\jaxb-runtime-2.3.5.jar;C:\Users\Michelli Brito\.m2\repository\org\glassfish\jaxb\txw2\2.3.5\txw2-2.3.5.jar;C:\Users\Michelli Brito\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\Michelli Brito\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\data\spring-data-jpa\2.5.4\spring-data-jpa-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\data\spring-data-commons\2.5.4\spring-data-commons-2.5.4.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-orm\5.3.9\spring-orm-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-tx\5.3.9\spring-tx-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-aspects\5.3.9\spring-aspects-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\postgresql\postgresql\42.2.23\postgresql-42.2.23.jar;C:\Users\Michelli Brito\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Michelli Brito\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Michelli Brito\.m2\repository\net\kaczmarzyk\specification-arg-resolver\2.6.2\specification-arg-resolver-2.6.2.jar;C:\Users\Michelli Brito\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Michelli Brito\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Michelli Brito\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Michelli Brito\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Michelli Brito\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-core\5.3.9\spring-core-5.3.9.jar;C:\Users\Michelli Brito\.m2\repository\org\springframework\spring-jcl\5.3.9\spring-jcl-5.3.9.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://openjdk.java.net/, catalina.useNaming=false, user.timezone=America/Sao_Paulo, os.name=Windows 10, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=BR, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.12\bin, sun.java.command=com.ead.authuser.AuthuserApplication, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@3bcc8f13, com.sun.management.jmxremote=, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, spring.liveBeansView.mbeanDomain=, sun.cpu.endian=little, user.home=C:\Users\Michelli Brito, user.language=pt, java.specification.vendor=Oracle Corporation, java.version.date=2021-07-20, java.home=C:\Program Files\Java\jdk-11.0.12, file.separator=\, spring.output.ansi.enabled=always, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.12+8-LTS-237, user.name=Michelli Brito, spring.jmx.enabled=true, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=18.9, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\MICHEL~1\AppData\Local\Temp\, catalina.home=C:\Users\Michelli Brito\AppData\Local\Temp\tomcat.8087.11771217278757901389, java.version=11.0.12, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=C:\EAD\authuser, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=6272, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\Michelli Brito\AppData\Local\Temp\tomcat.8087.11771217278757901389, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@3cb04dd, java.library.path=C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;%JAVA_HOME%\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\Git\cmd;%MAVEN_HOME%\bin;C:\Users\Michelli Brito\AppData\Local\Microsoft\WindowsApps;C:\Users\Michelli Brito\AppData\Roaming\npm;C:\Users\Michelli Brito\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=11.0.12+8-LTS-237, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=55.0}
+2021-10-11 22:15:54,659 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-10-11 22:15:54,659 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+2021-10-11 22:15:54,659 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-10-11 22:15:54,660 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-10-11 22:15:54,660 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-10-11 22:15:54,660 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-10-11 22:15:54,661 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [main] Loaded expression factory via original TCCL
+2021-10-11 22:15:54,664 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-10-11 22:15:54,664 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-10-11 22:15:54,665 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-10-11 22:15:54,665 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-10-11 22:15:54,665 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-10-11 22:15:54,665 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-10-11 22:15:54,667 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.ead.authuser.models.UserModel] is safe
+2021-10-11 22:15:54,667 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.ead.authuser.models.UserModel
+2021-10-11 22:15:54,732 DEBUG o.h.s.s.JaccIntegrator [main] Skipping JACC integration as it was not enabled
+2021-10-11 22:15:54,741 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum com.ead.authuser.enums.UserStatus
+2021-10-11 22:15:54,743 DEBUG o.h.t.EnumType [main] Using NAMED-based conversion for Enum com.ead.authuser.enums.UserType
+2021-10-11 22:15:54,744 DEBUG o.h.i.SessionFactoryImpl [main] Instantiated session factory
+2021-10-11 22:15:54,744 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1fd37440] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1a336906]
+2021-10-11 22:15:54,800 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.ead.authuser.models.UserModel] is safe
+2021-10-11 22:15:54,800 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.ead.authuser.models.UserModel
+2021-10-11 22:15:55,067 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: com.ead.authuser.models.UserModel
+2021-10-11 22:15:55,068 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select user_id from tb_users where user_id =?
+2021-10-11 22:15:55,068 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select usermodel_.user_id, usermodel_.cpf as cpf2_0_, usermodel_.creation_date as creation3_0_, usermodel_.email as email4_0_, usermodel_.full_name as full_nam5_0_, usermodel_.image_url as image_ur6_0_, usermodel_.last_update_date as last_upd7_0_, usermodel_.password as password8_0_, usermodel_.phone_number as phone_nu9_0_, usermodel_.user_status as user_st10_0_, usermodel_.user_type as user_ty11_0_, usermodel_.username as usernam12_0_ from tb_users usermodel_ where usermodel_.user_id=?
+2021-10-11 22:15:55,068 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into tb_users (cpf, creation_date, email, full_name, image_url, last_update_date, password, phone_number, user_status, user_type, username, user_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-10-11 22:15:55,068 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update tb_users set cpf=?, creation_date=?, email=?, full_name=?, image_url=?, last_update_date=?, password=?, phone_number=?, user_status=?, user_type=?, username=? where user_id=?
+2021-10-11 22:15:55,068 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from tb_users where user_id=?
+2021-10-11 22:15:55,086 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11c25846]
+2021-10-11 22:15:55,089 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : cpf
+2021-10-11 22:15:55,089 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creationDate
+2021-10-11 22:15:55,089 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : email
+2021-10-11 22:15:55,089 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : fullName
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : imageUrl
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lastUpdateDate
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : password
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : phoneNumber
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userStatus
+2021-10-11 22:15:55,090 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : userType
+2021-10-11 22:15:55,091 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : username
+2021-10-11 22:15:55,091 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-10-11 22:15:55,104 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-10-11 22:15:55,112 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=com.ead.authuser.models.UserModel)
+    - Returns
+       - EntityReturnImpl(entity=com.ead.authuser.models.UserModel, querySpaceUid=<gen:0>, path=com.ead.authuser.models.UserModel)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.ead.authuser.models.UserModel)
+          - SQL table alias mapping - usermodel0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_0_0_}
+
+2021-10-11 22:15:55,115 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity com.ead.authuser.models.UserModel [NONE]: select usermodel0_.user_id as user_id1_0_0_, usermodel0_.cpf as cpf2_0_0_, usermodel0_.creation_date as creation3_0_0_, usermodel0_.email as email4_0_0_, usermodel0_.full_name as full_nam5_0_0_, usermodel0_.image_url as image_ur6_0_0_, usermodel0_.last_update_date as last_upd7_0_0_, usermodel0_.password as password8_0_0_, usermodel0_.phone_number as phone_nu9_0_0_, usermodel0_.user_status as user_st10_0_0_, usermodel0_.user_type as user_ty11_0_0_, usermodel0_.username as usernam12_0_0_ from tb_users usermodel0_ where usermodel0_.user_id=?
+2021-10-11 22:15:55,193 DEBUG o.h.m.Table [main] No alter strings for table : tb_users
+2021-10-11 22:15:55,194 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-11 22:15:55,196 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named HQL queries
+2021-10-11 22:15:55,196 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named SQL queries
+2021-10-11 22:15:55,203 DEBUG o.h.i.SessionFactoryRegistry [main] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@58e5fbe5
+2021-10-11 22:15:55,204 DEBUG o.h.i.SessionFactoryRegistry [main] Registering SessionFactory: 199c1635-0614-482b-8f32-c0312d8c12c1 (<unnamed>)
+2021-10-11 22:15:55,204 DEBUG o.h.i.SessionFactoryRegistry [main] Not binding SessionFactory to JNDI, no JNDI name configured
+2021-10-11 22:15:55,206 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-11 22:15:55,370 DEBUG o.h.s.i.StatisticsInitiator [main] Statistics initialized [enabled=false]
+2021-10-11 22:15:55,525 DEBUG o.h.e.t.i.TransactionImpl [main] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-10-11 22:15:55,580 DEBUG o.h.e.t.i.TransactionImpl [main] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-10-11 22:15:55,667 DEBUG o.s.w.s.h.AbstractHandlerMethodMapping [main] 10 mappings in 'requestMappingHandlerMapping'
+2021-10-11 22:15:55,690 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [main] Loaded expression factory via original TCCL
+2021-10-11 22:15:55,691 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-10-11 22:15:55,692 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-10-11 22:15:55,692 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-10-11 22:15:55,693 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-10-11 22:15:55,693 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+2021-10-11 22:15:55,693 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+2021-10-11 22:15:55,694 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-10-11 22:15:55,694 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-10-11 22:15:55,694 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-10-11 22:15:55,694 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-10-11 22:15:55,695 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-10-11 22:15:55,696 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-10-11 22:15:55,696 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-10-11 22:15:55,696 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-10-11 22:15:55,696 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-10-11 22:15:55,696 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-10-11 22:15:55,725 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-11 22:15:55,759 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-11 22:15:55,782 DEBUG o.h.v.m.ResourceBundleMessageInterpolator [main] Loaded expression factory via original TCCL
+2021-10-11 22:15:55,782 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-10-11 22:15:55,783 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-10-11 22:15:55,783 DEBUG o.h.v.i.e.AbstractConfigurationImpl [main] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-10-11 22:15:55,783 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-10-11 22:15:55,783 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via user class loader
+2021-10-11 22:15:55,784 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via TCCL
+2021-10-11 22:15:55,784 DEBUG o.h.v.i.x.c.ResourceLoaderHelper [main] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-10-11 22:15:55,784 DEBUG o.h.v.i.x.c.ValidationXmlParser [main] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-10-11 22:15:55,785 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-10-11 22:15:55,785 DEBUG o.h.v.i.e.r.TraversableResolvers [main] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-10-11 22:15:55,787 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-10-11 22:15:55,787 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-10-11 22:15:55,788 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-10-11 22:15:55,788 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-10-11 22:15:55,788 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-10-11 22:15:55,788 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper [main] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-10-11 22:15:55,906 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-11 22:15:56,065 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8087"]
+2021-10-11 22:15:56,084 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8087 (http) with context path ''
+2021-10-11 22:15:56,101 INFO o.s.b.StartupInfoLogger [main] Started AuthuserApplication in 4.591 seconds (JVM running for 5.895)
+2021-10-11 22:17:02,035 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-11 22:17:02,036 DEBUG o.h.i.SessionFactoryImpl [SpringApplicationShutdownHook] HHH000031: Closing
+2021-10-11 22:17:02,036 DEBUG o.h.t.s.TypeConfiguration$Scope [SpringApplicationShutdownHook] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@44e076da] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1a336906]
+2021-10-11 22:17:02,039 DEBUG o.h.s.i.AbstractServiceRegistryImpl [SpringApplicationShutdownHook] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2021-10-11 22:17:02,039 DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl [SpringApplicationShutdownHook] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2021-10-11 22:17:02,040 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-11 22:17:02,048 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
