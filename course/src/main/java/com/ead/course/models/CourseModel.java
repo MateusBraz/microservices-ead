@@ -53,11 +53,11 @@ public class CourseModel implements Serializable {
     private Set<ModuleModel> modules;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    @OneToMany(mappedBy = "course", fetch = FetchType.LAZY)
-    private Set<CourseUserModel> coursesUsers;
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(    name = "TB_COURSES_USERS",
+            joinColumns = @JoinColumn(name = "course_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id"))
+    private Set<UserModel> users;
 
-    public CourseUserModel convertToCourseUserModel(UUID userID){
-        return new CourseUserModel(null, userID, this);
-    }
 
 }
