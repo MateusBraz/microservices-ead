@@ -46,3 +46,19 @@ eureka:
       defaultZone: 'http://localhost:8761/eureka'
   instance:
     hostname: localhost
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      circuitbreakerInstance:
+        sliding-window-size: 30
+        permitted-number-of-calls-in-half-open-state: 2
+        sliding-window-type: time_based
+        minimum-number-of-calls: 2
+        wait-duration-in-open-state: 30s
+        failure-rate-threshold: 80
+  retry:
+    instances:
+      retryInstance:
+        max-attempts: 3
+        wait-duration: 5s
