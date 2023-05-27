@@ -7,3 +7,6 @@ spring:
     config:
       discovery:
         service-id: ead-config-server
+      ## Usuário e Senha para logar no config-server
+      username: configserver
+      password: '123456'

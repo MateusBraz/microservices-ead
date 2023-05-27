@@ -12,6 +12,9 @@ spring:
     config:
       discovery:
         serviceId: ead-config-server
+      ## Usuário e Senha para logar no config-server
+      username: configserver
+      password: '123456'
   datasource:
     url:  jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres
