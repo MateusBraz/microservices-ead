@@ -33,17 +33,17 @@ public class CourseValidator implements Validator {
     public void validate(Object o, Errors errors) {
         CourseDto courseDto = (CourseDto) o;
         validator.validate(courseDto, errors);
-        if (!errors.hasErrors()) {
+        if(!errors.hasErrors()){
             validateUserInstructor(courseDto.getUserInstructor(), errors);
         }
     }
 
-    private void validateUserInstructor(UUID userInstructor, Errors errors) {
+    private void validateUserInstructor(UUID userInstructor, Errors errors){
         Optional<UserModel> userModelOptional = userService.findById(userInstructor);
-        if (!userModelOptional.isPresent()) {
+        if(!userModelOptional.isPresent()){
             errors.rejectValue("userInstructor", "UserInstructorError", "Instructor not found.");
         }
-        if (userModelOptional.isPresent() && userModelOptional.get().getUserType().equals(UserType.STUDENT.toString())) {
+        if(userModelOptional.get().getUserType().equals(UserType.STUDENT.toString())){
             errors.rejectValue("userInstructor", "UserInstructorError", "User must be INSTRUCTOR or ADMIN.");
         }
     }
