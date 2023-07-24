@@ -16,7 +16,7 @@ spring:
       username: configserver
       password: '123456'
   datasource:
-    url:  jdbc:postgresql://localhost:5432/ead-notification-v2
+    url:  jdbc:postgresql://localhost:5433/ead_notification
     username: postgres
     password: 123456
   jpa:

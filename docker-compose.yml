@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: my-rabbitmq
+    ports:
+      - "5672:5672"       # Porta padrão do RabbitMQ para conexões AMQP
+      - "15672:15672"     # Porta do painel de controle do RabbitMQ (Web UI)
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: 123456
+      restart: unless-stopped
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+  postgres:
+    image: postgres:14.2
+    container_name: my-postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # Adicione esta linha para montar o script SQL
+
+volumes:
+  rabbitmq_data:
+  postgres_data:
